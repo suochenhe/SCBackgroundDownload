@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E51ABBA1C279DA60032A04F /* SCDownloadFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51ABB31C279DA60032A04F /* SCDownloadFileTool.m */; };
+		4E51ABBB1C279DA60032A04F /* SCDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51ABB51C279DA60032A04F /* SCDownloadModel.m */; };
+		4E51ABBC1C279DA60032A04F /* SCSessionDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51ABB71C279DA60032A04F /* SCSessionDownloadManager.m */; };
+		4E51ABBD1C279DA60032A04F /* SCSessionDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51ABB91C279DA60032A04F /* SCSessionDownloadTask.m */; };
+		4E705E8A1C22AA61008B21F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705E891C22AA61008B21F7 /* main.m */; };
+		4E705E8D1C22AA61008B21F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705E8C1C22AA61008B21F7 /* AppDelegate.m */; };
+		4E705E901C22AA61008B21F7 /* SingleDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705E8F1C22AA61008B21F7 /* SingleDownloadViewController.m */; };
+		4E705E931C22AA61008B21F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E705E911C22AA61008B21F7 /* Main.storyboard */; };
+		4E705E951C22AA61008B21F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E705E941C22AA61008B21F7 /* Assets.xcassets */; };
+		4E705E981C22AA61008B21F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E705E961C22AA61008B21F7 /* LaunchScreen.storyboard */; };
+		4E705EA31C22AA61008B21F7 /* SCBackgroundDownloadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705EA21C22AA61008B21F7 /* SCBackgroundDownloadDemoTests.m */; };
+		4E705EAE1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705EAD1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests.m */; };
+		4E705ECF1C23CB42008B21F7 /* OffLineCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E705ECE1C23CB42008B21F7 /* OffLineCenterController.m */; };
+		6C202D331C24861600C2233C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C202D321C24861600C2233C /* ViewController.m */; };
+		6C202D361C24913200C2233C /* OffLineCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C202D351C24913200C2233C /* OffLineCenterCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E705E9F1C22AA61008B21F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E705E7D1C22AA60008B21F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E705E841C22AA61008B21F7;
+			remoteInfo = SCBackgroundDownload;
+		};
+		4E705EAA1C22AA61008B21F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E705E7D1C22AA60008B21F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E705E841C22AA61008B21F7;
+			remoteInfo = SCBackgroundDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E51ABB11C279DA60032A04F /* SCDownloadConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDownloadConfig.h; sourceTree = "<group>"; };
+		4E51ABB21C279DA60032A04F /* SCDownloadFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDownloadFileTool.h; sourceTree = "<group>"; };
+		4E51ABB31C279DA60032A04F /* SCDownloadFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDownloadFileTool.m; sourceTree = "<group>"; };
+		4E51ABB41C279DA60032A04F /* SCDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDownloadModel.h; sourceTree = "<group>"; };
+		4E51ABB51C279DA60032A04F /* SCDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDownloadModel.m; sourceTree = "<group>"; };
+		4E51ABB61C279DA60032A04F /* SCSessionDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSessionDownloadManager.h; sourceTree = "<group>"; };
+		4E51ABB71C279DA60032A04F /* SCSessionDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSessionDownloadManager.m; sourceTree = "<group>"; };
+		4E51ABB81C279DA60032A04F /* SCSessionDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSessionDownloadTask.h; sourceTree = "<group>"; };
+		4E51ABB91C279DA60032A04F /* SCSessionDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSessionDownloadTask.m; sourceTree = "<group>"; };
+		4E51ABBE1C279DEB0032A04F /* SCBackgroundDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBackgroundDownload.h; sourceTree = "<group>"; };
+		4E705E851C22AA61008B21F7 /* SCBackgroundDownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCBackgroundDownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E705E891C22AA61008B21F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E705E8B1C22AA61008B21F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E705E8C1C22AA61008B21F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E705E8E1C22AA61008B21F7 /* SingleDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleDownloadViewController.h; sourceTree = "<group>"; };
+		4E705E8F1C22AA61008B21F7 /* SingleDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleDownloadViewController.m; sourceTree = "<group>"; };
+		4E705E921C22AA61008B21F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E705E941C22AA61008B21F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E705E971C22AA61008B21F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E705E991C22AA61008B21F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E705E9E1C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCBackgroundDownloadDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E705EA21C22AA61008B21F7 /* SCBackgroundDownloadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBackgroundDownloadDemoTests.m; sourceTree = "<group>"; };
+		4E705EA41C22AA61008B21F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E705EA91C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCBackgroundDownloadDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E705EAD1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBackgroundDownloadDemoUITests.m; sourceTree = "<group>"; };
+		4E705EAF1C22AA61008B21F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E705ECD1C23CB42008B21F7 /* OffLineCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffLineCenterController.h; sourceTree = "<group>"; };
+		4E705ECE1C23CB42008B21F7 /* OffLineCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffLineCenterController.m; sourceTree = "<group>"; };
+		6C202D311C24861600C2233C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C202D321C24861600C2233C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C202D341C24913200C2233C /* OffLineCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffLineCenterCell.h; sourceTree = "<group>"; };
+		6C202D351C24913200C2233C /* OffLineCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffLineCenterCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E705E821C22AA61008B21F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705E9B1C22AA61008B21F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705EA61C22AA61008B21F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E51ABB01C279DA60032A04F /* SCBackgroundDownload */ = {
+			isa = PBXGroup;
+			children = (
+				4E51ABBE1C279DEB0032A04F /* SCBackgroundDownload.h */,
+				4E51ABB11C279DA60032A04F /* SCDownloadConfig.h */,
+				4E51ABB21C279DA60032A04F /* SCDownloadFileTool.h */,
+				4E51ABB31C279DA60032A04F /* SCDownloadFileTool.m */,
+				4E51ABB41C279DA60032A04F /* SCDownloadModel.h */,
+				4E51ABB51C279DA60032A04F /* SCDownloadModel.m */,
+				4E51ABB81C279DA60032A04F /* SCSessionDownloadTask.h */,
+				4E51ABB91C279DA60032A04F /* SCSessionDownloadTask.m */,
+				4E51ABB61C279DA60032A04F /* SCSessionDownloadManager.h */,
+				4E51ABB71C279DA60032A04F /* SCSessionDownloadManager.m */,
+			);
+			path = SCBackgroundDownload;
+			sourceTree = "<group>";
+		};
+		4E705E7C1C22AA60008B21F7 = {
+			isa = PBXGroup;
+			children = (
+				4E705E871C22AA61008B21F7 /* SCBackgroundDownloadDemo */,
+				4E705EA11C22AA61008B21F7 /* SCBackgroundDownloadDemoTests */,
+				4E705EAC1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests */,
+				4E705E861C22AA61008B21F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E705E861C22AA61008B21F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E705E851C22AA61008B21F7 /* SCBackgroundDownloadDemo.app */,
+				4E705E9E1C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */,
+				4E705EA91C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E705E871C22AA61008B21F7 /* SCBackgroundDownloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E51ABB01C279DA60032A04F /* SCBackgroundDownload */,
+				4E705E8B1C22AA61008B21F7 /* AppDelegate.h */,
+				4E705E8C1C22AA61008B21F7 /* AppDelegate.m */,
+				6C202D311C24861600C2233C /* ViewController.h */,
+				6C202D321C24861600C2233C /* ViewController.m */,
+				6C202D341C24913200C2233C /* OffLineCenterCell.h */,
+				6C202D351C24913200C2233C /* OffLineCenterCell.m */,
+				4E705ECD1C23CB42008B21F7 /* OffLineCenterController.h */,
+				4E705ECE1C23CB42008B21F7 /* OffLineCenterController.m */,
+				4E705E8E1C22AA61008B21F7 /* SingleDownloadViewController.h */,
+				4E705E8F1C22AA61008B21F7 /* SingleDownloadViewController.m */,
+				4E705E911C22AA61008B21F7 /* Main.storyboard */,
+				4E705E941C22AA61008B21F7 /* Assets.xcassets */,
+				4E705E961C22AA61008B21F7 /* LaunchScreen.storyboard */,
+				4E705E991C22AA61008B21F7 /* Info.plist */,
+				4E705E881C22AA61008B21F7 /* Supporting Files */,
+			);
+			path = SCBackgroundDownloadDemo;
+			sourceTree = "<group>";
+		};
+		4E705E881C22AA61008B21F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E705E891C22AA61008B21F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E705EA11C22AA61008B21F7 /* SCBackgroundDownloadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E705EA21C22AA61008B21F7 /* SCBackgroundDownloadDemoTests.m */,
+				4E705EA41C22AA61008B21F7 /* Info.plist */,
+			);
+			path = SCBackgroundDownloadDemoTests;
+			sourceTree = "<group>";
+		};
+		4E705EAC1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E705EAD1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests.m */,
+				4E705EAF1C22AA61008B21F7 /* Info.plist */,
+			);
+			path = SCBackgroundDownloadDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E705E841C22AA61008B21F7 /* SCBackgroundDownloadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E705EB21C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemo" */;
+			buildPhases = (
+				4E705E811C22AA61008B21F7 /* Sources */,
+				4E705E821C22AA61008B21F7 /* Frameworks */,
+				4E705E831C22AA61008B21F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCBackgroundDownloadDemo;
+			productName = SCBackgroundDownload;
+			productReference = 4E705E851C22AA61008B21F7 /* SCBackgroundDownloadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E705E9D1C22AA61008B21F7 /* SCBackgroundDownloadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E705EB51C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemoTests" */;
+			buildPhases = (
+				4E705E9A1C22AA61008B21F7 /* Sources */,
+				4E705E9B1C22AA61008B21F7 /* Frameworks */,
+				4E705E9C1C22AA61008B21F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E705EA01C22AA61008B21F7 /* PBXTargetDependency */,
+			);
+			name = SCBackgroundDownloadDemoTests;
+			productName = SCBackgroundDownloadTests;
+			productReference = 4E705E9E1C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E705EA81C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E705EB81C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemoUITests" */;
+			buildPhases = (
+				4E705EA51C22AA61008B21F7 /* Sources */,
+				4E705EA61C22AA61008B21F7 /* Frameworks */,
+				4E705EA71C22AA61008B21F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E705EAB1C22AA61008B21F7 /* PBXTargetDependency */,
+			);
+			name = SCBackgroundDownloadDemoUITests;
+			productName = SCBackgroundDownloadUITests;
+			productReference = 4E705EA91C22AA61008B21F7 /* SCBackgroundDownloadDemo.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E705E7D1C22AA60008B21F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AndLiSoft;
+				TargetAttributes = {
+					4E705E841C22AA61008B21F7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4E705E9D1C22AA61008B21F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4E705E841C22AA61008B21F7;
+					};
+					4E705EA81C22AA61008B21F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4E705E841C22AA61008B21F7;
+					};
+				};
+			};
+			buildConfigurationList = 4E705E801C22AA60008B21F7 /* Build configuration list for PBXProject "SCBackgroundDownloadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E705E7C1C22AA60008B21F7;
+			productRefGroup = 4E705E861C22AA61008B21F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E705E841C22AA61008B21F7 /* SCBackgroundDownloadDemo */,
+				4E705E9D1C22AA61008B21F7 /* SCBackgroundDownloadDemoTests */,
+				4E705EA81C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E705E831C22AA61008B21F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E705E981C22AA61008B21F7 /* LaunchScreen.storyboard in Resources */,
+				4E705E951C22AA61008B21F7 /* Assets.xcassets in Resources */,
+				4E705E931C22AA61008B21F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705E9C1C22AA61008B21F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705EA71C22AA61008B21F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E705E811C22AA61008B21F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C202D331C24861600C2233C /* ViewController.m in Sources */,
+				4E705E901C22AA61008B21F7 /* SingleDownloadViewController.m in Sources */,
+				4E705E8D1C22AA61008B21F7 /* AppDelegate.m in Sources */,
+				4E51ABBC1C279DA60032A04F /* SCSessionDownloadManager.m in Sources */,
+				4E51ABBB1C279DA60032A04F /* SCDownloadModel.m in Sources */,
+				4E705E8A1C22AA61008B21F7 /* main.m in Sources */,
+				6C202D361C24913200C2233C /* OffLineCenterCell.m in Sources */,
+				4E705ECF1C23CB42008B21F7 /* OffLineCenterController.m in Sources */,
+				4E51ABBA1C279DA60032A04F /* SCDownloadFileTool.m in Sources */,
+				4E51ABBD1C279DA60032A04F /* SCSessionDownloadTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705E9A1C22AA61008B21F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E705EA31C22AA61008B21F7 /* SCBackgroundDownloadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E705EA51C22AA61008B21F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E705EAE1C22AA61008B21F7 /* SCBackgroundDownloadDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E705EA01C22AA61008B21F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E705E841C22AA61008B21F7 /* SCBackgroundDownloadDemo */;
+			targetProxy = 4E705E9F1C22AA61008B21F7 /* PBXContainerItemProxy */;
+		};
+		4E705EAB1C22AA61008B21F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E705E841C22AA61008B21F7 /* SCBackgroundDownloadDemo */;
+			targetProxy = 4E705EAA1C22AA61008B21F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E705E911C22AA61008B21F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E705E921C22AA61008B21F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E705E961C22AA61008B21F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E705E971C22AA61008B21F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E705EB01C22AA61008B21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E705EB11C22AA61008B21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E705EB31C22AA61008B21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCBackgroundDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadDemo;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+			};
+			name = Debug;
+		};
+		4E705EB41C22AA61008B21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCBackgroundDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadDemo;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+			};
+			name = Release;
+		};
+		4E705EB61C22AA61008B21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SCBackgroundDownloadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadTests;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCBackgroundDownloadDemo.app/SCBackgroundDownloadDemo";
+			};
+			name = Debug;
+		};
+		4E705EB71C22AA61008B21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SCBackgroundDownloadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadTests;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCBackgroundDownloadDemo.app/SCBackgroundDownloadDemo";
+			};
+			name = Release;
+		};
+		4E705EB91C22AA61008B21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SCBackgroundDownloadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadUITests;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+				TEST_TARGET_NAME = SCBackgroundDownload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4E705EBA1C22AA61008B21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SCBackgroundDownloadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndLiSoft.SCBackgroundDownloadUITests;
+				PRODUCT_NAME = SCBackgroundDownloadDemo;
+				TEST_TARGET_NAME = SCBackgroundDownload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E705E801C22AA60008B21F7 /* Build configuration list for PBXProject "SCBackgroundDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E705EB01C22AA61008B21F7 /* Debug */,
+				4E705EB11C22AA61008B21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E705EB21C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E705EB31C22AA61008B21F7 /* Debug */,
+				4E705EB41C22AA61008B21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E705EB51C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E705EB61C22AA61008B21F7 /* Debug */,
+				4E705EB71C22AA61008B21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E705EB81C22AA61008B21F7 /* Build configuration list for PBXNativeTarget "SCBackgroundDownloadDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E705EB91C22AA61008B21F7 /* Debug */,
+				4E705EBA1C22AA61008B21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E705E7D1C22AA60008B21F7 /* Project object */;
+}
